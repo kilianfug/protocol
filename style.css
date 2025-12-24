@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'PostGrotesk';
+  src: url('/public/fonts/postgrotesk.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Monaspace';
+  src: url('/public/fonts/monaspaceneonvar.woff2') format('woff2');
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'PostGrotesk', sans-serif!important;
+}
+
+.font-mono,
+.eyebrow {
+    font-family: 'Monaspace', sans-serif!important;
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+#page-context-menu {
+    display: none;
+}
